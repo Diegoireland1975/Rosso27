@@ -1,0 +1,26 @@
+.carousel-inner {
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  margin: 0 auto;
+  top: -1rem;
+
+  img {
+    height: 55vh;
+    object-fit: cover;
+  }
+}
+
+.intro {
+  // transform: translate(-50%);
+  z-index: 1000;
+  width: 100%;
+  margin: 0 auto;
+  height: 50vh;
+
+  p {
+    color: $white-color;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}

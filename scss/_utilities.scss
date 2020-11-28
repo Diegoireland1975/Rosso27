@@ -1,0 +1,127 @@
+$main-color: #7e0f08;
+$yellow-color: #f6c715;
+$blue-color: #0a0e3b;
+$white-color: #fff;
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+%btn {
+  padding: 0.8rem 1.5rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  color: $white-color;
+  transition: transform, color, background, 0.5s ease;
+  font-size: 1.2rem;
+
+  &:hover,
+  &:focus {
+    transform: scale(0.95);
+    color: #000;
+    background: $white-color;
+  }
+}
+
+.btn-main {
+  @extend %btn;
+  background: darken($main-color, 25%);
+}
+.btn-secondary {
+  @extend %btn;
+  background: $yellow-color;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// Margin and Padding
+my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 2.5rem 0;
+}
+
+.my-5 {
+  padding: 3rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 2.5rem 0;
+}
+
+.py-5 {
+  padding: 3rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 2.5rem;
+}
+
+.m-5 {
+  padding: 3rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}

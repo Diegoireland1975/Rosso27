@@ -1,0 +1,58 @@
+.main-header {
+  // background-color: $blue-color;
+  background: linear-gradient(to right, $yellow-color, $blue-color);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  h3 {
+    color: #fff;
+    font-style: bold;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-family: Orbitron, sans-serif;
+    font-weight: bold;
+    color: $main-color;
+    // background-color: $yellow-color;
+    font-size: 3rem;
+    span {
+      color: $white-color;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 5rem;
+    }
+  }
+
+  .italyflag1 {
+    width: 5rem;
+  }
+  .back {
+    text-decoration: none;
+  }
+}
+
+.mainnav {
+  margin-top: 1rem;
+
+  a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: $main-color;
+    color: $white-color;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.3rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: transform, background, color, 0.3s ease-in-out;
+    &:hover {
+      color: $main-color;
+      transform: scale(1.1);
+      background: $white-color;
+      text-decoration: none;
+    }
+  }
+}
