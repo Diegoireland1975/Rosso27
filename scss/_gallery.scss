@@ -1,0 +1,33 @@
+.gallery {
+  img {
+    max-width: 800px;
+  }
+}
+
+.photos {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  &:hover,
+  &:focus {
+    img {
+      opacity: 0.6;
+      transform: scale(0.92);
+    }
+  }
+  img {
+    width: 70%;
+    margin: 1rem;
+    border: 0.5rem solid $white-color;
+    transition: opacity, transform, 0.5s ease-in-out;
+    &:hover,
+    &:focus {
+      transform: scale(1);
+      opacity: 1;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
