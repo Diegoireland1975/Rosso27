@@ -3,13 +3,12 @@
   height: 60vh;
   width: 100vw;
   margin: 0 auto;
-  top: -1rem;
+  top: -2rem;
   overflow: hidden;
 
   img {
-    max-height: 55vh;
+    height: 55vh;
     object-fit: contain;
-    overflow: hidden;
   }
 }
 
