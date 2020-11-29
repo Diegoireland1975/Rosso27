@@ -31,7 +31,7 @@ $white-color: #fff;
 
 .btn-main {
   @extend %btn;
-  background: darken($main-color, 25%);
+  background: darken($yellow-color, 5%);
 }
 .btn-secondary {
   @extend %btn;
@@ -45,6 +45,10 @@ $white-color: #fff;
   justify-content: center;
 }
 
+.head-section {
+  font-size: 3rem;
+  color: $yellow-color;
+}
 // Margin and Padding
 my-1 {
   margin: 1rem 0;
