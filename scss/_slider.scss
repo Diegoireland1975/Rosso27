@@ -4,10 +4,11 @@
   width: 100vw;
   margin: 0 auto;
   top: -1rem;
+  overflow: hidden;
 
   img {
-    height: 55vh;
-    object-fit: cover;
+    max-height: 55vh;
+    object-fit: contain;
   }
 }
 
