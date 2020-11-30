@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
   &:hover,
   &:focus {
     img {
@@ -18,11 +19,13 @@
       transform: scale(0.92);
     }
   }
+
   img {
     width: 70%;
     margin: 1rem;
     border: 0.5rem solid $white-color;
     transition: opacity, transform, 0.5s ease-in-out;
+
     &:hover,
     &:focus {
       transform: scale(1);
