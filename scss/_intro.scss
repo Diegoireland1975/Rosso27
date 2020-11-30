@@ -1,1 +1,9 @@
-
+.intro-bio {
+  background: url("../img/other-pic/f1-brazilian-gp-1984.jpg") no-repeat top
+      center/cover,
+    $blue-color;
+  background-blend-mode: overlay;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
