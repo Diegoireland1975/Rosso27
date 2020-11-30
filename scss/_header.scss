@@ -50,9 +50,10 @@
     transition: transform, background, color, 0.3s ease-in-out;
 
     &:hover {
-      color: $main-color;
+      color: $yellow-color;
       transform: scale(1.1);
-      background: $white-color;
+      background: $blue-color;
+      // background: $white-color;
       text-decoration: none;
     }
   }

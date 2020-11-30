@@ -47,7 +47,9 @@ $white-color: #fff;
 
 .head-section {
   font-size: 3rem;
-  color: $yellow-color;
+  background: -webkit-linear-gradient(to right, $yellow-color, $blue-color);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 // Margin and Padding

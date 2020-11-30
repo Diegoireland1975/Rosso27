@@ -54,7 +54,7 @@
 
 @media (min-width: 1024px) {
   .carousel-inner {
-    height: 90vh;
+    min-height: 90vh;
     width: 70vw;
 
     img {
