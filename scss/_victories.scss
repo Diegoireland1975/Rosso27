@@ -1,6 +1,63 @@
 .victories {
+  background: $blue-color;
   .nurburing1985 {
     max-width: 800px;
     background: black;
+  }
+
+  .caesarspalace {
+    color: $yellow-color;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+}
+
+.victories-nav {
+  background-color: saddlebrown;
+  width: 100vw;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: #ccc;
+    transition: color, font, 0.4s ease-in;
+
+    &:hover {
+      color: $white-color;
+      font-weight: 700;
+    }
+  }
+}
+.caesar {
+  background: url("../img/other-pic/michele-alboreto-il-ricordo-di-un-grande-uomo-di-un-grande-pilota-dal-sorriso-infinito.jpg")
+    center center/contain;
+  background-color: $blue-color;
+  background-blend-mode: multiply;
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    color: $yellow-color;
+    margin: 1rem 0;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    img {
+      width: 200px;
+      margin-top: 1rem;
+    }
+  }
+
+  .box-3 {
+    .grid_a {
+      font-size: 0.5rem;
+      background: green;
+    }
   }
 }

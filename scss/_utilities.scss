@@ -47,11 +47,7 @@ $white-color: #fff;
 
 .head-section {
   font-size: 2rem;
-  background: linear-gradient(to left, $yellow-color, $blue-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: 11rem;
-  margin: 0 auto;
+  color: $blue-color;
   text-transform: uppercase;
 }
 

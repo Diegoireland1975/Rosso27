@@ -6,7 +6,7 @@ $('[data-fancybox="Michele"]').fancybox({
   buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
 });
 
-$('[data-fancybox="victories"]').fancybox({
+$('[data-fancybox="Las-Vegas"]').fancybox({
   loop: true,
   transitionEffect: "zoom-in-out",
   animationDuration: 366,

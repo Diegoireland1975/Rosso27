@@ -50,17 +50,39 @@
     padding: 0 1rem;
   }
 
-  .bio {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    img {
-      width: 50%;
-    }
+  // Sections title
+  .head-section {
+    font-size: 4rem;
   }
+
+  // footer
   .main-footer {
     h2 {
       font-size: 4rem;
+    }
+  }
+
+  // victories
+  .victories-nav {
+    .flex {
+      justify-content: space-around;
+    }
+
+    li {
+      margin-bottom: 0;
+    }
+  }
+
+  .caesar {
+    justify-content: space-between;
+    align-items: flex-start;
+    .box1 {
+      order: 3;
+      flex: 2;
+    }
+
+    .box3 {
+      order: -1;
     }
   }
 }
