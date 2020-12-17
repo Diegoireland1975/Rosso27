@@ -23,7 +23,7 @@
 
   a {
     color: #ccc;
-    transition: color, font, 0.4s ease-in;
+    transition: color, font, 0.2s ease-in;
 
     &:hover {
       color: $white-color;
@@ -35,7 +35,7 @@
   background: url("../img/other-pic/michele-alboreto-il-ricordo-di-un-grande-uomo-di-un-grande-pilota-dal-sorriso-infinito.jpg")
     center center/contain;
   background-color: $blue-color;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
 
   p {
     font-size: 0.8rem;
