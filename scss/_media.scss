@@ -18,6 +18,9 @@
   }
 
   .main-header {
+    .container {
+      padding: 0;
+    }
     .flex {
       gap: 2rem;
     }
@@ -63,9 +66,12 @@
   }
 
   // victories
-  .victories-text {
-    max-width: 700px;
-    margin: 0 auto;
+  .victories {
+    .victories-text {
+      max-width: 600px;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+    }
   }
   .victories-nav {
     .flex {
