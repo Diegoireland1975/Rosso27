@@ -45,6 +45,10 @@ $white-color: #fff;
   justify-content: center;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .head-section {
   font-size: 2rem;
   color: $blue-color;

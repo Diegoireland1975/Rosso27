@@ -2,8 +2,9 @@
   background: $blue-color;
   .nurburing1985 {
     max-width: 800px;
-    height: 50vh;
+    height: 60vh;
     object-fit: cover;
+    margin-top: -3rem;
   }
 
   .caesarspalace {
@@ -18,8 +19,13 @@
   background-color: saddlebrown;
   width: 100vw;
 
+  span {
+    font-size: 0.7rem;
+  }
+
   li {
     margin-bottom: 0.5rem;
+    font-size: 0.9rem;
   }
 
   a {

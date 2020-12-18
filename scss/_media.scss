@@ -17,6 +17,9 @@
     align-items: center;
   }
 
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .main-header {
     .container {
       padding: 0;
@@ -84,15 +87,20 @@
   }
 
   .caesar {
-    justify-content: space-between;
     align-items: flex-start;
+
     .box1 {
-      order: 3;
+      order: 2;
       flex: 2;
+    }
+    .box2 {
+      flex: 1;
+      order: 3;
     }
 
     .box3 {
-      order: -1;
+      order: -2;
+      flex: 2;
     }
   }
 }
@@ -107,5 +115,9 @@
       object-fit: cover;
       object-position: center;
     }
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
