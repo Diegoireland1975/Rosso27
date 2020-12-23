@@ -36,9 +36,10 @@
 
 .mainnav {
   background: $main-color;
+  min-height: 80vh;
 
   a {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     background: $main-color;
     color: $white-color;
@@ -56,5 +57,10 @@
       // background: $white-color;
       text-decoration: none;
     }
+  }
+
+  .nav-links {
+    height: 50vh;
+    justify-content: space-between;
   }
 }
