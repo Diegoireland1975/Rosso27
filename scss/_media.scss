@@ -36,8 +36,12 @@
   }
 
   .mainnav {
+    min-height: auto;
     a {
       font-size: 1rem;
+    }
+    .nav-links {
+      height: auto;
     }
   }
   .carousel-inner {
@@ -63,7 +67,7 @@
 
   // Sections title
   .head-section {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   // footer
