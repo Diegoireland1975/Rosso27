@@ -1,3 +1,4 @@
+// Caesar Palace
 .victories {
   background: $blue-color;
   .nurburing1985 {
@@ -7,7 +8,7 @@
     margin-top: -3rem;
   }
 
-  .caesarspalace {
+  .victories-title {
     color: $yellow-color;
     text-transform: uppercase;
     font-style: italic;
@@ -38,7 +39,7 @@
     }
   }
 }
-.caesar {
+.victories-container {
   background: url("../img/other-pic/michele-alboreto-il-ricordo-di-un-grande-uomo-di-un-grande-pilota-dal-sorriso-infinito.jpg")
     center center/contain;
   background-color: $blue-color;
@@ -67,4 +68,9 @@
       background: green;
     }
   }
+}
+
+// Detroit
+.detroit {
+  background: rgba(246, 199, 21, 0.5);
 }
