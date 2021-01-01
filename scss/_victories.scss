@@ -44,7 +44,13 @@
     center center/contain;
   background-color: $blue-color;
   background-blend-mode: overlay;
-
+  a {
+    transition: filter 0.4s ease;
+  }
+  a:hover,
+  a:focus {
+    filter: brightness(75%);
+  }
   p {
     font-size: 0.8rem;
   }
@@ -52,6 +58,11 @@
   h3 {
     color: $yellow-color;
     margin: 1rem 0;
+  }
+
+  h4 {
+    margin-top: 0.5rem;
+    font-weight: 100;
   }
   .box1,
   .box2,
@@ -71,6 +82,10 @@
 }
 
 // Detroit
-.detroit {
+.detroit,
+.caesar-palace,
+.zolder,
+.montreal,
+.nurburgring {
   background: rgba(246, 199, 21, 0.5);
 }
