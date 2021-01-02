@@ -64,6 +64,10 @@
     margin-top: 0.5rem;
     font-weight: 100;
   }
+
+  .box1 {
+    text-align: left;
+  }
   .box1,
   .box2,
   .box3 {
@@ -76,7 +80,6 @@
   .box-3 {
     .grid_a {
       font-size: 0.5rem;
-      background: green;
     }
   }
 }
