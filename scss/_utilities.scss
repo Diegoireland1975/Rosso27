@@ -24,14 +24,14 @@ $white-color: #fff;
   &:hover,
   &:focus {
     transform: scale(0.95);
-    color: #000;
-    background: $white-color;
+    color: $yellow-color;
+    background: $main-color;
   }
 }
 
 .btn-main {
   @extend %btn;
-  background: darken($yellow-color, 5%);
+  background: darken($main-color, 5%);
 }
 .btn-secondary {
   @extend %btn;
