@@ -1,8 +1,10 @@
 .main-footer {
   background-color: $blue-color;
+  border-top: 1px dotted $white-color;
 
   h2 {
     font-size: 2.5rem;
+    font-weight: 700;
   }
 
   .enzo {
