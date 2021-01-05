@@ -107,6 +107,19 @@
       flex: 2;
     }
   }
+
+  // Cars
+  .cars {
+    .flex {
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    figure {
+      img {
+        margin-right: auto;
+      }
+    }
+  }
 }
 
 @media (min-width: 1024px) {

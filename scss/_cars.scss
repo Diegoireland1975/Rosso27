@@ -4,4 +4,23 @@
     height: 350px;
     object-fit: cover;
   }
+
+  .flex {
+    gap: 2rem;
+  }
+
+  figure {
+    padding: 2rem 1rem;
+    border-bottom: 1px dotted;
+    max-width: 900px;
+    margin: 0 auto;
+
+    &:last-child {
+      border-bottom: none;
+    }
+    img {
+      width: 200px;
+      border: 0.3rem solid $white-color;
+    }
+  }
 }

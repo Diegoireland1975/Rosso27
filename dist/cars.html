@@ -6,6 +6,7 @@
   <title>Document</title>
   <link rel="icon" href="img/icons/wheel.svg" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
 </head>
 <body>
   <!-- Header -->
@@ -30,11 +31,33 @@
   </nav>
   </div>
 
-  <!-- Bio -->
+  <!-- Cars -->
   <section class="cars py-5" id="cars">
     <div class="container text-center">
       <img class="car" src="img/other-pic/alboreto1.jpg" alt="alboreto in ferrari">
       <h2 class="head-section text-center my-1">Cars</h2>
+      
+      <figure class="flex">
+        <a href="img/other-pic/michele-alboreto-minardi-f2.jpg" data-fancybox="Las-Vegas"
+          data-caption="Alboreto in 1981 with Minardi Formula 2"><img
+            src="img/other-pic/michele-alboreto-minardi-f2.jpg"
+            alt="alboreto in Minardi"></a>
+        <figcaption>
+          <h4>1981 - Minardi</h4>
+          <p>Alboreto with one of his first cars in Formula 2</p>
+        </figcaption>
+      </figure>
+
+      <figure class="flex">
+        <a href="img/other-pic/lemans-24-hours-of-le-mans-1981-65-lancia-beta-montecarlo.jpg" data-fancybox="Las-Vegas"
+          data-caption="Alboreto in 1981 with Lancia Beta Montecarlo"><img
+            src="img/other-pic/lemans-24-hours-of-le-mans-1981-65-lancia-beta-montecarlo.jpg"
+            alt="alboreto with Lancia beta"></a>
+        <figcaption>
+          <h4>1981 - Lancia Beta Montecarlo</h4>
+          <p>Alboreto with the Lancia Beta Montecarlo at le Mans</p>
+        </figcaption>
+      </figure>
     </div>
   </section>
 
@@ -52,5 +75,8 @@
       </p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
