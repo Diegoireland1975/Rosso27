@@ -15,6 +15,14 @@
     max-width: 900px;
     margin: 0 auto;
 
+    a {
+      transition: filter 0.4s ease-in-out;
+    }
+    a:hover,
+    a:focus {
+      filter: brightness(75%);
+    }
+
     &:last-child {
       border-bottom: none;
     }
