@@ -2,10 +2,12 @@
 .victories {
   background: $blue-color;
   .nurburing1985 {
-    max-width: 800px;
+    max-width: 300px;
+    margin: 0 auto;
     height: 65vh;
     object-fit: cover;
     margin-top: -3rem;
+    background: green;
   }
 
   .victories-title {
