@@ -28,6 +28,8 @@
     }
     img {
       width: 200px;
+      height: 150px;
+      object-fit: cover;
       border: 0.3rem solid $white-color;
     }
   }
