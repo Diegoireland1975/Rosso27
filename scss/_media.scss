@@ -75,6 +75,9 @@
 
   // victories
   .victories {
+    .nurburing1985 {
+      height: 65vh;
+    }
     .victories-text {
       max-width: 600px;
       margin: 0 auto;
@@ -113,6 +116,7 @@
   .cars {
     .car {
       bottom: 4rem;
+      max-height: 400px;
     }
     .flex {
       align-items: flex-start;
@@ -122,6 +126,12 @@
       p {
         max-width: 500px;
       }
+    }
+  }
+  .gallery {
+    .gallery-main-pic {
+      max-height: 65vh;
+      object-fit: cover;
     }
   }
 }

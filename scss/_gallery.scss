@@ -1,9 +1,12 @@
 .gallery {
-  .audi {
+  .gallery-main-pic {
     max-width: 800px;
     margin-bottom: 3rem;
     position: relative;
     bottom: 3rem;
+    max-height: 40vh;
+    object-fit: cover;
+    object-position: bottom;
   }
 
   .photos {
