@@ -111,6 +111,9 @@
 
   // Cars
   .cars {
+    .car {
+      bottom: 6rem;
+    }
     .flex {
       align-items: flex-start;
       justify-content: space-between;
