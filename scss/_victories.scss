@@ -20,23 +20,28 @@
 .victories-nav {
   background-color: saddlebrown;
   width: 100vw;
+  .flex {
+    flex-wrap: wrap;
+  }
 
   span {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: bold;
   }
 
   li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px solid $white-color;
     font-size: 0.9rem;
+    padding-bottom: 0.2rem;
   }
 
   a {
     color: #ccc;
-    transition: color, font, 0.2s ease-in;
+    transition: color 0.4s ease-in-out;
 
     &:hover {
       color: $white-color;
-      font-weight: 700;
     }
   }
 }

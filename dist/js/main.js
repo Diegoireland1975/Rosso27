@@ -21,11 +21,3 @@ collapsibles.forEach((item) =>
     this.classList.toggle("collapsible--expanded");
   })
 );
-
-// Scroll trigger
-ScrollTrigger.create({
-  trigger: ".trigger",
-  start: "top center",
-  end: "+=500",
-  onUpdate: (self) => console.log("direction:", self.direction),
-});
