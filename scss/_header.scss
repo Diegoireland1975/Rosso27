@@ -36,7 +36,7 @@
 
 .mainnav {
   background: $main-color;
-  min-height: 75vh;
+  height: 35vh;
   a {
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -59,7 +59,7 @@
   }
 
   .nav-links {
-    height: 50vh;
+    height: 30vh;
     justify-content: space-between;
   }
 }
