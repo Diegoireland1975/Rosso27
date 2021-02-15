@@ -17,13 +17,15 @@
     border-bottom: 1px dotted;
     max-width: 900px;
     margin: 0 auto;
+    overflow: hidden;
 
     a {
-      transition: filter 0.4s ease-in-out;
+      transition: filter, transform 0.4s ease-in-out;
     }
     a:hover,
     a:focus {
       filter: brightness(75%);
+      transform: scale(1.1);
     }
 
     &:last-child {
