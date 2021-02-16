@@ -19,6 +19,17 @@
     margin: 0 auto;
     overflow: hidden;
 
+    h4 {
+      color: $yellow-color;
+      font-size: 1.3rem;
+      border-bottom: 2px solid $yellow-color;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      max-width: 500px;
+    }
+
     a {
       transition: filter 0.4s ease-in-out;
     }
