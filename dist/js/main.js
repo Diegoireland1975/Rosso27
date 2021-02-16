@@ -14,6 +14,14 @@ $('[data-fancybox="Las-Vegas"]').fancybox({
   buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
 });
 
+$('[data-fancybox="Cars"]').fancybox({
+  loop: true,
+  transitionEffect: "slide",
+  animationDuration: 366,
+  transitionDuration: 1500,
+  buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
+});
+
 // Collapsible
 const collapsibles = document.querySelectorAll(".collapsible");
 collapsibles.forEach((item) =>
