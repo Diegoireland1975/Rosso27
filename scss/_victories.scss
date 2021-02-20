@@ -12,6 +12,7 @@
   .victories-text {
     padding: 0 2rem;
   }
+
   p {
     max-width: 700px;
     margin: 0 auto;
@@ -103,6 +104,7 @@
   .box3 {
     img {
       width: 240px;
+      object-fit: cover;
       margin-top: 1rem;
     }
   }
@@ -110,8 +112,9 @@
   .box2,
   .box3 {
     justify-self: center;
-    .grid_a {
-      font-size: 0.5rem;
+    .grid_a,
+    .grid_b {
+      margin-bottom: 0.5rem;
     }
   }
   iframe {
