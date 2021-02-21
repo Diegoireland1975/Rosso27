@@ -22,10 +22,11 @@ $('[data-fancybox="Cars"]').fancybox({
   buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
 });
 
-// Collapsible
-const collapsibles = document.querySelectorAll(".collapsible");
-collapsibles.forEach((item) =>
-  item.addEventListener("click", function () {
-    this.classList.toggle("collapsible--expanded");
-  })
-);
+// Hamburger Menu
+const navToggler = document.getElementById("nav-toggler");
+const navLinks = document.getElementById("nav-links");
+
+navToggler.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+  navToggler.classList.toggle("rotate");
+});
