@@ -12,4 +12,7 @@
     line-height: 2;
     text-align: left;
   }
+  .first::first-letter {
+    initial-letter: 2;
+  }
 }
