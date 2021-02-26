@@ -15,9 +15,10 @@ body {
   background: $blue-color;
   font-family: "Orbitron", sans-serif;
   color: $white-color;
-  line-height: 1.6;
+  // line-height: 1.6;
   letter-spacing: 2px;
   overflow-x: hidden;
+  margin: 0;
 }
 
 img {
@@ -35,4 +36,5 @@ ul {
 }
 section {
   font-family: "Lato", sans-serif;
+  line-height: 1.6;
 }
