@@ -40,7 +40,8 @@
 
 .mainnav {
   background: $main-color;
-  max-height: 35vh;
+  height: auto;
+  align-items: flex-start;
   a {
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -65,5 +66,6 @@
   .nav-links {
     height: 30vh;
     justify-content: space-between;
+    align-items: flex-start;
   }
 }
