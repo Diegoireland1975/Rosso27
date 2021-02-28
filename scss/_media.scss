@@ -21,9 +21,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .main-header {
-    .container {
-      padding: 0;
-    }
     .flex {
       gap: 2rem;
     }
@@ -32,6 +29,9 @@
       span {
         font-size: 5rem;
       }
+    }
+    a {
+      padding-top: 0.5rem;
     }
     // possibly fix for the header
     // .back {
@@ -43,8 +43,8 @@
   }
 
   .mainnav {
-    min-height: auto;
-    padding: 0;
+    max-height: 10vh;
+    padding-top: 0.5rem;
     a {
       font-size: 1rem;
     }
@@ -79,6 +79,8 @@
 
   .bio {
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
   }
   // footer
   .main-footer {
