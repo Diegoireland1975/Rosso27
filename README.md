@@ -6,4 +6,4 @@ I started when I did not know even a line of code.
 I created it step by step and it's not finished yet.
 Technologies Used:
 SASS, Grid, Flexbox, Mobile, first approach, Bootsrtap for thr Carousel slider, Fancybox for the Photogallery
-https://rosso27.netlify.app/
+
