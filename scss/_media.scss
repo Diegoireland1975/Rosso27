@@ -33,13 +33,6 @@
     a {
       padding-top: 0.5rem;
     }
-    // possibly fix for the header
-    // .back {
-    //   max-height: 5.5rem;
-    //   padding-top: 1rem;
-    //   position: relative;
-    //   bottom: 3rem;
-    // }
   }
 
   .mainnav {
@@ -102,6 +95,7 @@
   }
 
   .victories-nav {
+    padding: 0.5rem 0;
     .flex {
       justify-content: space-around;
     }
