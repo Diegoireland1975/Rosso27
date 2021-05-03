@@ -54,7 +54,7 @@
       object-fit: contain;
     }
   }
-  .intro {
+  .intro-slider {
     position: initial;
     .lead {
       font-size: 1.2rem;
@@ -68,9 +68,9 @@
     padding: 0 1rem;
   }
 
-  // Bio
+  // Intro
 
-  .bio {
+  .intro {
     background-attachment: fixed;
     display: flex;
     justify-content: center;
