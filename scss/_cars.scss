@@ -12,10 +12,13 @@
     gap: 2rem;
   }
 
+  .cars-content {
+    padding: 1rem 2rem;
+  }
   figure {
-    padding: 2rem;
+    padding: 2rem 0;
     border-bottom: 1px dotted;
-    max-width: 900px;
+    max-width: 500px;
     margin: 0 auto;
     overflow: hidden;
 
@@ -28,6 +31,7 @@
     }
     p {
       max-width: 500px;
+      text-align: left;
     }
 
     a {
