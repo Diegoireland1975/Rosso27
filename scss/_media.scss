@@ -88,7 +88,9 @@
   // victories
   .victories {
     .nurburing1985 {
+      max-width: 100vw;
       height: 65vh;
+      object-fit: cover;
     }
     .victories-text {
       max-width: 700px;
@@ -128,8 +130,10 @@
   // Cars
   .cars {
     .car {
-      bottom: 4rem;
-      max-height: 400px;
+      bottom: 1rem;
+      max-width: 100vw;
+      max-height: 70vh;
+      object-position: bottom;
     }
     .flex {
       align-items: center;
@@ -152,6 +156,7 @@
   // Gallery
   .gallery {
     .gallery-main-pic {
+      max-width: 100vw;
       max-height: 65vh;
       object-fit: cover;
       bottom: 3.5rem;
@@ -187,6 +192,11 @@
       }
     }
   }
+  .victories {
+    .victories-text {
+      max-width: 900px;
+    }
+  }
 
   .victories-container {
     align-items: flex-start;
@@ -215,10 +225,6 @@
   }
 
   .gallery {
-    .gallery-main-pic {
-      max-width: 1400px;
-    }
-
     .photos {
       max-width: 1600px;
       img {
@@ -233,7 +239,7 @@
       max-width: 1500px;
     }
     .car {
-      max-width: 1000px;
+      max-height: 70vh;
     }
 
     figure {
