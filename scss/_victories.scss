@@ -23,7 +23,8 @@
 }
 
 .victories-nav {
-  background-color: saddlebrown;
+  // background-color: saddlebrown;
+  background: linear-gradient(45deg, green, $white-color, $main-color);
   width: 100%;
   .flex {
     flex-wrap: wrap;
@@ -56,18 +57,18 @@
   }
 
   a {
-    color: #ccc;
+    color: $blue-color;
     transition: color 0.4s ease-in-out;
+    font-weight: 700;
 
     &:hover {
-      color: $white-color;
+      color: #000;
     }
   }
 }
 .victories-container {
-  background: url("../img/other-pic/michele-alboreto-il-ricordo-di-un-grande-uomo-di-un-grande-pilota-dal-sorriso-infinito.jpg")
-    top center/contain;
-  background-color: $blue-color;
+  background: url("../img/other-pic/collage.jpg") top center/contain;
+  background-color: lighten($blue-color, $amount: 15%);
   background-blend-mode: overlay;
 
   a {
