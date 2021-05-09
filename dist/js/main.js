@@ -31,11 +31,13 @@ $('[data-fancybox="Cars"]').fancybox({
 //   navToggler.classList.toggle("rotate");
 // });
 
-// Sticky menu background
-window.addEventListener("scroll", function () {
+// change header opacity on scroll
+const mainHeader = document.querySelector("#main-header");
+
+window.addEventListener("scroll", () => {
   if (window.scrollY > 150) {
-    document.querySelector("#main-header").style.opacity = 0.9;
+    mainHeader.style.opacity = 0.9;
   } else {
-    document.querySelector("#main-header").style.opacity = 1;
+    mainHeader.style.opacity = 1;
   }
 });
