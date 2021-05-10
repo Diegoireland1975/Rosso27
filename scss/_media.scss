@@ -100,9 +100,11 @@
   }
 
   .victories-nav {
-    padding: 0.5rem 0;
+    padding: 0;
+
     .flex {
       justify-content: space-around;
+      padding: 0.3rem 0;
     }
 
     li {

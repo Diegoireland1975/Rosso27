@@ -32,7 +32,7 @@ $('[data-fancybox="Cars"]').fancybox({
 // });
 
 // change header opacity on scroll
-const mainHeader = document.querySelector("#main-header");
+const mainHeader = document.getElementById("main-header");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 150) {
