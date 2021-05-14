@@ -1,36 +1,16 @@
-$('[data-fancybox="Michele"]').fancybox({
-  loop: true,
-  transitionEffect: "zoom-in-out",
-  animationDuration: 366,
-  transitionDuration: 1000,
-  buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
-});
-
-$('[data-fancybox="Las-Vegas"]').fancybox({
-  loop: true,
-  transitionEffect: "zoom-in-out",
-  animationDuration: 366,
-  transitionDuration: 1000,
-  buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
-});
-
-$('[data-fancybox="Cars"]').fancybox({
-  loop: true,
-  transitionEffect: "slide",
-  animationDuration: 366,
-  transitionDuration: 1500,
-  buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
-});
+// function onClickMenu() {
+//   document.getElementById("hamburger").classList.toggle("change");
+//   document.querySelector(".nav-links").classList.toggle("change");
+// }
 
 // // Hamburger Menu
-// const navToggler = document.getElementById("nav-toggler");
-// const navLinks = document.getElementById("nav-links");
+const menu = document.getElementById("hamburger");
+const nav = document.querySelector(".nav-links");
 
-// navToggler.addEventListener("click", () => {
-//   navLinks.classList.toggle("show");
-//   navToggler.classList.toggle("rotate");
-// });
-
+menu.addEventListener("click", () => {
+  menu.classList.toggle("change");
+  nav.classList.toggle("change");
+});
 // change header opacity on scroll
 const mainHeader = document.getElementById("main-header");
 

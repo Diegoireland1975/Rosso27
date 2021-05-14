@@ -24,6 +24,11 @@
   </header>
   <!-- Nav -->
   <nav class="mainnav flex">
+    <div id="hamburger">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
     <ul class="flex nav-links">
       <li><a href="Intro.html">Intro</a></li>
       <li><a href="victories.html">Victories</a></li>
@@ -283,5 +288,14 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    $('[data-fancybox="Michele"]').fancybox({
+      loop: true,
+      transitionEffect: "zoom-in-out",
+      animationDuration: 366,
+      transitionDuration: 1000,
+      buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
+    });
+  </script>
 </body>
 </html>

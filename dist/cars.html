@@ -25,6 +25,11 @@
   </header>
   <!-- Nav -->
   <nav class="mainnav flex">
+    <div id="hamburger">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
     <ul class="flex nav-links">
       <li><a href="intro.html">Intro</a></li>
       <li><a href="victories.html">Victories</a></li>
@@ -201,6 +206,15 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+
+    $('[data-fancybox="Cars"]').fancybox({
+      loop: true,
+      transitionEffect: "slide",
+      animationDuration: 366,
+      transitionDuration: 1500,
+      buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
+    });
+
   </script>
 </body>
 </html>

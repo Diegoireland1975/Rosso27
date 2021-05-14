@@ -39,11 +39,20 @@
   .mainnav {
     max-height: 10vh;
     padding-top: 0.5rem;
+
+    #hamburger {
+      display: none;
+    }
     a {
       font-size: 1rem;
     }
     .nav-links {
       height: auto;
+      display: inline-flex;
+
+      &.change {
+        display: inline-flex;
+      }
     }
   }
 

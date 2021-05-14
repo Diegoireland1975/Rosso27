@@ -43,6 +43,49 @@
   background: $main-color;
   height: auto;
   align-items: flex-start;
+
+  // Hamburger Menu
+  #hamburger {
+    width: 35px;
+    height: 30px;
+    margin: 1.5rem;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+
+    .bar {
+      height: 5px;
+      width: 100%;
+      background-color: $yellow-color;
+      display: block;
+      border-radius: 5px;
+      transition: 0.2s ease;
+    }
+
+    #bar1 {
+      transform: translateY(-5px);
+    }
+    #bar3 {
+      transform: translateY(5px);
+    }
+  }
+
+  .change {
+    #bar1 {
+      transform: rotateZ(-45deg);
+      background-color: $white-color;
+    }
+
+    #bar2 {
+      background-color: $white-color;
+    }
+    #bar3 {
+      transform: translateY(4px) rotate(45deg);
+      background-color: $white-color;
+    }
+  }
   a {
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -57,7 +100,7 @@
 
     &:hover {
       color: $yellow-color;
-      transform: scale(1.1);
+      transform: scale(1.05);
       background: $blue-color;
       // background: $white-color;
       text-decoration: none;
@@ -65,8 +108,13 @@
   }
 
   .nav-links {
-    height: auto;
+    // height: auto;
     justify-content: space-between;
     align-items: flex-start;
+    display: none;
+
+    &.change {
+      display: block;
+    }
   }
 }
