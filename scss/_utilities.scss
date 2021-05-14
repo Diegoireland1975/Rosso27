@@ -18,14 +18,16 @@ $white-color: #fff;
   display: inline-block;
   border-radius: 0.5rem;
   color: $white-color;
-  transition: transform, color, background, 0.5s ease;
+  transition: transform, color, background, 0.3s ease;
   font-size: 1.2rem;
+  outline: none;
+  border: none;
 
   &:hover,
   &:focus {
     transform: scale(0.95);
-    color: $yellow-color;
-    background: $main-color;
+    color: $main-color;
+    background: $white-color;
     border: none;
   }
 }
@@ -51,7 +53,7 @@ $white-color: #fff;
   grid-template-columns: 1fr;
 }
 
-.head-section {
+.header-section {
   font-size: 2rem;
   color: $yellow-color;
   text-transform: uppercase;
