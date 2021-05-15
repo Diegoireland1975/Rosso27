@@ -11,6 +11,15 @@
 }
 
 @media (min-width: 768px) {
+  body {
+    background: linear-gradient(
+      68deg,
+      $yellow-color,
+      $blue-color,
+      $blue-color,
+      $yellow-color
+    );
+  }
   .flex {
     flex-direction: row;
     justify-content: center;
@@ -183,6 +192,10 @@
       max-height: 65vh;
       object-fit: cover;
       bottom: 3.5rem;
+    }
+
+    .header-section {
+      margin-top: -5rem;
     }
   }
 }
