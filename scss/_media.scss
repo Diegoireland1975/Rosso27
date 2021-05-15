@@ -243,6 +243,10 @@
   .victories-container {
     align-items: flex-start;
 
+    p {
+      font-size: 1rem;
+    }
+
     .box1 {
       order: 2;
       flex: 2;
