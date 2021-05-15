@@ -109,7 +109,7 @@
   }
 
   .victories-nav {
-    padding: 0;
+    padding: 0.1rem 0;
 
     .grid {
       // padding: 0.3rem 0;
@@ -209,8 +209,7 @@
 
     .victories-nav {
       .grid {
-        // padding: 0.3rem 0;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 0.3rem 0;
       }
     }
   }
