@@ -24,10 +24,23 @@
     .flex {
       gap: 2rem;
     }
+
+    #logo {
+      width: 3.5rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
     h1 {
       font-size: 3rem;
       span {
         font-size: 5rem;
+      }
+
+      .italyflag1 {
+        width: 3.5rem;
       }
     }
     a {

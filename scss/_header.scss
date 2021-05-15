@@ -7,10 +7,15 @@
   z-index: 999;
   line-height: 0;
 
+  #logo {
+    width: 2.5rem;
+    margin-left: 0.5rem;
+  }
+
   h3 {
     color: #fff;
     font-style: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   h1 {
@@ -23,12 +28,12 @@
       color: $white-color;
       font-weight: 700;
       font-style: italic;
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
   }
 
   .italyflag1 {
-    width: 4rem;
+    width: 2.5rem;
   }
 
   // possible fix for header
