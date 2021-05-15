@@ -51,13 +51,13 @@
 
   // Hamburger Menu
   #hamburger {
-    width: 30px;
+    width: 35px;
     height: 30px;
     margin: 1.7rem;
     cursor: pointer;
     position: fixed;
-    top: -1rem;
-    right: -1.3rem;
+    top: 0;
+    right: -1rem;
     z-index: 1000;
 
     .bar {
