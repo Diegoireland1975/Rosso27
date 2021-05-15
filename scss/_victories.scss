@@ -25,8 +25,8 @@
   // background-color: saddlebrown;
   background: linear-gradient(45deg, green, $white-color, $main-color);
   width: 100%;
-  .flex {
-    flex-wrap: wrap;
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   span {
