@@ -13,6 +13,11 @@
     margin: 0 auto;
     text-align: left;
   }
+
+  .drop-cap::first-letter {
+    font-size: 2rem;
+    color: $yellow-color;
+  }
   .victories-title {
     color: $yellow-color;
     text-transform: uppercase;

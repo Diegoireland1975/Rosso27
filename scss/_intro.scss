@@ -10,7 +10,11 @@
     line-height: 2;
     text-align: left;
   }
-  .first::first-letter {
-    initial-letter: 2;
+
+  .drop-cap::first-letter {
+    font-size: 2rem;
+    color: $yellow-color;
+    font-weight: bold;
+    margin-right: 0.25rem;
   }
 }
