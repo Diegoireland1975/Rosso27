@@ -7,6 +7,9 @@
   z-index: 999;
   a {
     line-height: 0;
+    height: 7.5vh;
+    position: relative;
+    bottom: 1.5rem;
   }
   #logo {
     width: 2.5rem;
@@ -23,7 +26,6 @@
     font-family: Orbitron, sans-serif;
     font-weight: bold;
     color: $main-color;
-    // background-color: $yellow-color;
     font-size: 2rem;
     span {
       color: $white-color;
