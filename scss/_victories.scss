@@ -44,32 +44,19 @@
 
   li {
     font-size: 0.9rem;
-    margin-bottom: 0.6rem;
-    padding-bottom: 0.2rem;
-    position: relative;
-
-    &::after {
-      content: "";
-      width: 0;
-      height: 2px;
-      position: absolute;
-      background: $yellow-color;
-      bottom: 0;
-      left: 4rem;
-      transition: 0.5s width ease;
-    }
-    &:hover::after {
-      width: 50%;
-    }
+    margin-bottom: 0.5rem;
   }
 
   a {
     color: $blue-color;
     transition: color 0.4s ease-in-out;
     font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+    padding-bottom: 2px;
 
     &:hover {
-      color: #000;
+      border-color: $yellow-color;
     }
   }
 }
