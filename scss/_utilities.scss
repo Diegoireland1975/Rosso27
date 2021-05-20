@@ -18,17 +18,57 @@ $white-color: #fff;
   display: inline-block;
   border-radius: 0.5rem;
   color: $white-color;
-  transition: transform, color, background, 0.3s ease;
+  transition: 0.3s ease;
   font-size: 1.2rem;
   outline: none;
-  border: none;
+  border: 1px solid $white-color;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
 
   &:hover,
   &:focus {
-    transform: scale(0.95);
-    color: $main-color;
-    background: $white-color;
-    border: none;
+    background-color: $white-color;
+  }
+
+  &:before {
+    content: "";
+    width: 0;
+    height: 100%;
+    background: $main-color;
+    position: absolute;
+    top: 0;
+    left: -20%;
+    z-index: -2;
+    transition: 0.4s cubic-bezier(0.2, 0.05, 0.05, 0.1);
+    transform: skewX(-50deg);
+    opacity: 1;
+  }
+
+  &:hover::before {
+    width: 136%;
+    color: $blue-color;
+    background: $main-color;
+  }
+
+  &:after {
+    content: "";
+    width: 0;
+    height: 100%;
+    background: $main-color;
+    position: absolute;
+    top: 0;
+    left: -20%;
+    z-index: -3;
+    transition: 0.4s cubic-bezier(0.2, 1.05, 0.05, 0.1);
+    transform: skewX(-50deg);
+    opacity: 0;
+  }
+
+  &:hover::after {
+    width: 136%;
+    background: $blue-color;
   }
 }
 
@@ -39,6 +79,7 @@ $white-color: #fff;
 .btn-secondary {
   @extend %btn;
   background: $yellow-color;
+  color: $blue-color;
 }
 
 .flex {
