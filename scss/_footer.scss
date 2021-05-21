@@ -1,12 +1,6 @@
 .main-footer {
   // background-color: $blue-color;
-  background: linear-gradient(
-    120deg,
-    $blue-color,
-    $blue-color,
-    $blue-color,
-    $yellow-color
-  );
+  background: $blue-color;
   border-top: 10px solid $white-color;
   padding: 0 1rem;
   line-height: 1.6;
@@ -35,11 +29,12 @@
   h2 {
     font-size: 2.5rem;
     font-weight: 700;
+    color: $yellow-color;
   }
 
   .enzo {
     font-family: "Lato", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: italic;
     max-width: 900px;
     margin: 0 auto;

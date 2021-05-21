@@ -3,7 +3,6 @@
   height: 60vh;
   width: 100vw;
   margin: 0 auto;
-  // top: -4.5rem;
   overflow: hidden;
 
   img {
@@ -14,8 +13,6 @@
 }
 
 .intro-slider {
-  // transform: translate(-50%);
-  // z-index: 1000;
   width: 100%;
   margin: 0 auto;
   height: 35vh;
@@ -25,11 +22,16 @@
   .lead {
     color: $white-color;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 900;
     position: relative;
     top: 1rem;
     padding: 0 1rem;
     max-width: 550px;
     margin: 0.5rem auto 1.5rem;
+    text-transform: uppercase;
+    color: $white-color;
+    // -webkit-background-clip: text;
+    // background-clip: text;
+    // color: transparent;
   }
 }
