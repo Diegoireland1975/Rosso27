@@ -30,6 +30,7 @@ $white-color: #fff;
   &:hover,
   &:focus {
     background-color: $white-color;
+    color: $white-color;
   }
 
   &:before {
@@ -46,9 +47,10 @@ $white-color: #fff;
     opacity: 1;
   }
 
-  &:hover::before {
+  &:hover::before,
+  &:focus::before {
     width: 136%;
-    color: $blue-color;
+    color: $white-color;
     background: $main-color;
   }
 
@@ -66,15 +68,18 @@ $white-color: #fff;
     opacity: 0;
   }
 
-  &:hover::after {
+  &:hover::after,
+  &:focus::after {
     width: 136%;
     background: $blue-color;
+    color: $white-color;
   }
 }
 
 .btn-main {
   @extend %btn;
-  background: darken($main-color, 5%);
+  // background: ligthen($main-color, 5%);
+  background: $blue-color;
 }
 .btn-secondary {
   @extend %btn;
