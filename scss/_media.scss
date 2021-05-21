@@ -223,11 +223,9 @@
       object-fit: contain;
       object-position: top;
     }
-
-    .intro-slider {
-      position: relative;
-      bottom: -8rem;
-    }
+  }
+  .intro-slider {
+    height: 40vh;
   }
 
   .grid {
