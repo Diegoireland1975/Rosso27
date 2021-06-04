@@ -92,10 +92,11 @@
   }
   .intro-slider {
     top: 1rem;
+    height: 40vh;
     .lead {
       font-size: 1.2rem;
       max-width: 650px;
-      margin: 0 auto;
+      margin: 0 auto 1.5rem;
     }
   }
 
@@ -223,10 +224,12 @@
       object-fit: contain;
       object-position: top;
     }
+  }
+  .intro-slider {
+    height: 45vh;
 
-    .intro-slider {
-      position: relative;
-      bottom: -8rem;
+    .lead {
+      font-size: 1.3rem;
     }
   }
 
