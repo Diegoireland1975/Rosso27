@@ -200,10 +200,19 @@
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/main.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script src="js/main.js"></script>
+  <script>
+    $('[data-fancybox="Las-Vegas"]').fancybox({
+      loop: true,
+      transitionEffect: "zoom-in-out",
+      animationDuration: 366,
+      transitionDuration: 1000,
+      buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"],
+    });
   </script>
 </body>
 </html>
