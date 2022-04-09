@@ -4,7 +4,7 @@
   text-align: center;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 0;
   a {
     line-height: 0;
     height: 50px;
@@ -52,6 +52,9 @@
   background: $main-color;
   height: auto;
   align-items: flex-start;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 
   // Hamburger Menu
   #hamburger {
