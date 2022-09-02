@@ -13,7 +13,13 @@ html {
 
 body {
   // background: $blue-color;
-  background: linear-gradient(68deg, $yellow-color, $blue-color, $blue-color);
+  background: linear-gradient(
+    to right,
+    $blue-color,
+    $blue-color,
+    $yellow-color
+  );
+  // background: linear-gradient(68deg, $blue-color 85%, $yellow-color);
   font-family: "Orbitron", sans-serif;
   color: $white-color;
   // line-height: 1.6;

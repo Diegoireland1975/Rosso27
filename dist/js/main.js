@@ -16,7 +16,7 @@ const mainHeader = document.getElementById("main-header");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 150) {
-    mainHeader.style.opacity = 0.9;
+    mainHeader.style.opacity = 0.95;
   } else {
     mainHeader.style.opacity = 1;
   }

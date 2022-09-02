@@ -12,14 +12,10 @@
 
 @media (min-width: 768px) {
   body {
-    background: linear-gradient(
-      68deg,
-      $yellow-color,
-      $blue-color,
-      $blue-color,
-      $yellow-color
-    );
+    // background: linear-gradient(45deg, $blue-color, $blue-color, $yellow-color);
+    background: linear-gradient(85deg, $blue-color 85%, $yellow-color);
   }
+
   .flex {
     flex-direction: row;
     justify-content: center;
@@ -129,8 +125,9 @@
   .victories {
     .nurburing1985 {
       max-width: 100vw;
-      height: 65vh;
+      height: 90vh;
       object-fit: cover;
+      object-position: center;
     }
     .victories-text {
       max-width: 700px;
@@ -174,13 +171,13 @@
     }
   }
 
-  // Cars
+  // CARS
   .cars {
     .car {
       bottom: 1rem;
       max-width: 100vw;
-      max-height: 70vh;
-      object-position: bottom;
+      max-height: 85vh;
+      object-position: center;
     }
     .flex {
       align-items: center;
@@ -203,7 +200,7 @@
   .gallery {
     .gallery-main-pic {
       max-width: 100vw;
-      max-height: 65vh;
+      max-height: 85vh;
       object-fit: cover;
       bottom: 3.5rem;
     }
