@@ -8,8 +8,8 @@ const menu = document.getElementById("hamburger");
 const nav = document.querySelector(".nav-links");
 
 menu.addEventListener("click", () => {
-  menu.classList.toggle("change");
-  nav.classList.toggle("change");
+  menu.classList.toggle("show");
+  nav.classList.toggle("show");
 });
 // change header opacity on scroll
 const mainHeader = document.getElementById("main-header");

@@ -52,7 +52,8 @@
   background: $main-color;
   height: auto;
   align-items: flex-start;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 100;
 
@@ -124,7 +125,7 @@
     align-items: flex-start;
     display: none;
 
-    &.change {
+    &.show {
       display: block;
     }
   }

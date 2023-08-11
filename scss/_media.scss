@@ -58,6 +58,7 @@
   .mainnav {
     max-height: 10vh;
     padding-top: 0.5rem;
+    position: initial;
 
     #hamburger {
       display: none;
@@ -69,7 +70,7 @@
       height: auto;
       display: inline-flex;
 
-      &.change {
+      &.show {
         display: inline-flex;
       }
     }
