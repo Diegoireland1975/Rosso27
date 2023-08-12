@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+}
+.drop-cap::first-letter {
+  font-size: 2rem;
+  color: $yellow-color;
+  font-weight: bold;
+  margin-right: 0.15rem;
+}
+.first-img {
+  width: 300px;
+  float: left;
+  shape-outside: polygon(90%);
+  margin-right: 1rem;
+}
+p {
+  font-style: italic;
+}
