@@ -2,28 +2,33 @@
   .flex {
     gap: 1rem;
   }
-}
-.container {
-  margin: 0 auto;
-
-  .first-img {
-    max-width: 450px;
-  }
-  .second-img {
-    width: 300px;
-    order: 2;
-  }
-  p {
-    color: $yellow-color;
-    font-style: italic;
-    max-width: 500px;
+  .container {
     margin: 0 auto;
-    line-height: 1.2;
+
+    .first-img {
+      max-width: 450px;
+    }
+    .second-img {
+      width: 300px;
+      order: 2;
+    }
+    p {
+      color: $yellow-color;
+      max-width: 500px;
+      margin: 0 auto;
+      line-height: 1.2;
+    }
+  }
+  .drop-cap::first-letter {
+    font-size: 2rem;
+    color: $yellow-color;
+    font-weight: bold;
+    margin-right: 0.15rem;
   }
 }
-.drop-cap::first-letter {
-  font-size: 2rem;
-  color: $yellow-color;
-  font-weight: bold;
-  margin-right: 0.15rem;
+.text {
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
