@@ -1,32 +1,31 @@
 .bio {
   .flex {
-    gap: 1rem;
+    gap: 2rem;
   }
   .container {
+    max-width: 1200px;
     margin: 0 auto;
-
-    div {
-      max-width: 800px;
-      margin: 0 auto;
-    }
     .img1 {
       max-width: 450px;
     }
     .img2 {
-      width: 300px;
+      max-width: 450px;
       order: 2;
     }
     .img3 {
-      max-width: 600px;
+      max-width: 350px;
     }
     .img4 {
       width: 300px;
-      order: -1;
+      order: 2;
+    }
+    .img5 {
+      max-width: 550px;
     }
     p {
       font-style: italic;
       color: $white-color;
-      // max-width: 500px;
+      max-width: 600px;
       margin: 0 auto;
       line-height: 1.3;
     }
