@@ -8,9 +8,10 @@ $white-color: #fff;
 }
 
 .container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0;
 }
 
 %btn {
