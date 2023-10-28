@@ -15,8 +15,9 @@
   }
 
   .drop-cap::first-letter {
-    font-size: 2rem;
+    initial-letter: 2 1;
     color: $yellow-color;
+    margin-right: 0.5rem;
   }
   .victories-title {
     color: $yellow-color;

@@ -14,7 +14,7 @@
   }
 
   .drop-cap::first-letter {
-    font-size: 2rem;
+    initial-letter: 2 1;
     color: $yellow-color;
     font-weight: bold;
     margin-right: 0.15rem;
