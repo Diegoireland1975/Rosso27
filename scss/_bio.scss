@@ -7,7 +7,7 @@
       scale: 0.7;
       opacity: 0.1;
       animation: fade-in linear forwards;
-      animation-range: exit -400px;
+      animation-range: contain -200px;
       animation-timeline: view();
     }
     .img1 {
