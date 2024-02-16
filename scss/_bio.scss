@@ -3,6 +3,13 @@
     gap: 2rem;
   }
   .container {
+    img {
+      scale: 0.7;
+      opacity: 0.1;
+      animation: fade-in linear forwards;
+      animation-range: exit -400px;
+      animation-timeline: view();
+    }
     .img1 {
       max-width: 450px;
     }
@@ -26,6 +33,7 @@
     .img7 {
       max-width: 350px;
     }
+
     p {
       font-style: italic;
       color: $white-color;
@@ -39,5 +47,13 @@
     initial-letter: 2 1;
     font-weight: bold;
     margin-right: 0.15rem;
+  }
+}
+
+// Animation
+@keyframes fade-in {
+  100% {
+    scale: 1;
+    opacity: 1;
   }
 }
