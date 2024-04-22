@@ -5,6 +5,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cookieBanner = document.getElementById("cookie-banner");
   const acceptCookiesBtn = document.getElementById("accept-cookies");
+  const rejectCookiesBtn = document.getElementById("reject-cookies");
 
   // Function to show the cookie banner after a delay
   function showCookieBanner() {
@@ -14,10 +15,15 @@ document.addEventListener("DOMContentLoaded", () => {
   // Show the cookie banner after a delay of 2 seconds (adjust as needed)
   setTimeout(showCookieBanner, 2000);
 
+  // handle accepting cookies
   acceptCookiesBtn.addEventListener("click", () => {
-    console.log("ciao");
     cookieBanner.style.display = "none";
     setCookie("cookies_accepted", "true", 365);
+  });
+
+  // handle rejecting cookies
+  rejectCookiesBtn.addEventListener("click", () => {
+    cookieBanner.style.display = "none";
   });
 
   // Check if user has already accepted cookies
