@@ -1,18 +1,21 @@
 .intro {
   background: url("../img/other-pic/f1-brazilian-gp-1984.jpg") no-repeat top
       center/cover,
-    lighten($blue-color, $amount: 15%);
+    lighten($blue-color, $amount: 5%);
   background-blend-mode: overlay;
   min-height: 90vh;
   z-index: 1;
   p {
     color: $white-color;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 1rem auto;
     line-height: 2;
     text-align: left;
   }
-
+  .accent {
+    color: $yellow-color;
+    font-weight: bold;
+  }
   .drop-cap::first-letter {
     initial-letter: 2 1;
     color: $yellow-color;
