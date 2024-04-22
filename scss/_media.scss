@@ -57,7 +57,8 @@
   .mainnav {
     max-height: 10vh;
     padding-top: 0.5rem;
-    position: initial;
+    position: sticky;
+    top: 20vh;
 
     #hamburger {
       display: none;
