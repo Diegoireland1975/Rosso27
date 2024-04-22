@@ -1,7 +1,57 @@
-// function onClickMenu() {
-//   document.getElementById("hamburger").classList.toggle("change");
-//   document.querySelector(".nav-links").classList.toggle("change");
-// }
+// *************
+// cookie banner
+// **************
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cookieBanner = document.getElementById("cookie-banner");
+  const acceptCookiesBtn = document.getElementById("accept-cookies");
+
+  // Function to show the cookie banner after a delay
+  function showCookieBanner() {
+    cookieBanner.style.display = "block";
+  }
+
+  // Show the cookie banner after a delay of 2 seconds (adjust as needed)
+  setTimeout(showCookieBanner, 2000);
+
+  acceptCookiesBtn.addEventListener("click", () => {
+    console.log("ciao");
+    cookieBanner.style.display = "none";
+    setCookie("cookies_accepted", "true", 365);
+  });
+
+  // Check if user has already accepted cookies
+  if (getCookie("cookies_accepted") === "true") {
+    cookieBanner.style.display = "none";
+  }
+});
+
+// Function to set a cookie
+function setCookie(name, value, days) {
+  let expires = "";
+  if (days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+// Function to get a cookie
+function getCookie(name) {
+  const nameEQ = name + "=";
+  const cookies = document.cookie.split(";");
+  for (let i = 0; i < cookies.length; i++) {
+    let cookie = cookies[i];
+    while (cookie.charAt(0) == " ") {
+      cookie = cookie.substring(1, cookie.length);
+    }
+    if (cookie.indexOf(nameEQ) == 0) {
+      return cookie.substring(nameEQ.length, cookie.length);
+    }
+  }
+  return null;
+}
 
 // // Hamburger Menu
 const menu = document.getElementById("hamburger");

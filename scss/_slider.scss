@@ -37,3 +37,30 @@
     // color: transparent;
   }
 }
+
+// COOKIE BANNER
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $main-color;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 100;
+}
+
+#accept-cookies {
+  background-color: $blue-color;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
