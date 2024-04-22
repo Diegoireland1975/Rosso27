@@ -34,11 +34,13 @@
     }
 
     a {
-      transition: filter 0.4s ease-in-out;
-    }
-    a:hover,
-    a:focus {
-      filter: brightness(75%);
+      transition: filter 0.3s ease-in-out;
+
+      &:hover,
+      &:focus {
+        filter: brightness(65%);
+        transform: scale(2);
+      }
     }
 
     &:last-child {
