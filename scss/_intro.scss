@@ -5,6 +5,7 @@
   background-blend-mode: overlay;
   min-height: 90vh;
   z-index: 1;
+  background-attachment: fixed;
   p {
     color: $white-color;
     max-width: 800px;

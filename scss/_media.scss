@@ -104,10 +104,6 @@
   // Intro
 
   .intro {
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-
     .drop-cap::first-letter {
       font-size: 3rem;
     }
