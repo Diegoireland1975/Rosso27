@@ -76,6 +76,7 @@
   p {
     font-size: 0.9rem;
     line-height: 1.6;
+    margin: 0.5rem 0;
   }
 
   h3 {
@@ -92,6 +93,7 @@
     text-align: left;
     margin-bottom: 1rem;
   }
+
   .box1,
   .box2,
   .box3 {
@@ -105,6 +107,7 @@
   .box2,
   .box3 {
     justify-self: center;
+
     .grid_a,
     .grid_b {
       margin-bottom: 0.5rem;
