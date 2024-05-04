@@ -53,11 +53,11 @@
     transition: color 0.4s ease-in-out;
     font-weight: 700;
     border-bottom: 2px solid transparent;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
     padding-bottom: 2px;
 
     &:hover {
-      border-color: $yellow-color;
+      border-color: $blue-color;
     }
   }
 }
