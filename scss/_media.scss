@@ -1,6 +1,6 @@
 // ONLY FOR SMALL SCREEN
 // REDUCED THE WIDTH OF THE PHOTOS IN GALLERY SO THERE ARE SHOWING IN A COLUMN OF TWO
-@media (max-width: 528px) {
+@media (max-width: 568px) {
   .photos {
     a {
       width: 50%;
@@ -329,9 +329,9 @@
   // GALLERY
   .gallery {
     .photos {
-      max-width: 1600px;
+      max-width: 1400px;
       img {
-        width: 70%;
+        width: 90%;
       }
     }
   }

@@ -3,7 +3,7 @@
     max-width: 800px;
     margin-bottom: 3rem;
     position: relative;
-    bottom: 5.5rem;
+    bottom: 3.5rem;
     max-height: 50vh;
     object-fit: cover;
     object-position: bottom;
@@ -11,7 +11,7 @@
   }
 
   .header-section {
-    margin-top: -7rem;
+    margin-top: -2rem;
   }
   .photos {
     max-width: 1000px;
@@ -20,6 +20,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: $yellow-color;
 
     .wrapper {
       display: flex;
