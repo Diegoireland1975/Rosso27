@@ -1,3 +1,4 @@
+// ONLY MOBILE
 @media (max-width: 528px) {
   .photos {
     a {
@@ -8,8 +9,12 @@
       border: 0.3rem solid $white-color;
     }
   }
-}
 
+  .carousel-inner {
+    height: 45vh;
+  }
+}
+// TABLET
 @media (min-width: 768px) {
   body {
     background: linear-gradient(60deg, $blue-color 90%, $yellow-color);
@@ -230,6 +235,7 @@
   }
 }
 
+// DESKTOP
 @media (min-width: 1024px) {
   .carousel-inner {
     min-height: 80vh;
@@ -301,7 +307,7 @@
   }
 }
 
-// Bigger Screen
+// BIGGER SCREEN
 @media (min-width: 1540px) {
   .container {
     max-width: 1800px;

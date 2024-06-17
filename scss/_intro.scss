@@ -13,10 +13,12 @@
     line-height: 2;
     text-align: left;
   }
+
   .accent {
     color: $yellow-color;
     font-weight: bold;
   }
+
   .drop-cap::first-letter {
     initial-letter: 2 1;
     color: $yellow-color;
