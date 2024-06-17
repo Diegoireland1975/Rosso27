@@ -1,4 +1,6 @@
 .gallery {
+  margin-bottom: 1rem;
+
   .gallery-main-pic {
     max-width: 800px;
     margin-bottom: 3rem;
@@ -20,7 +22,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: $yellow-color;
 
     .wrapper {
       display: flex;
