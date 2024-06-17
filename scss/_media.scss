@@ -1,4 +1,5 @@
-// ONLY MOBILE
+// ONLY FOR SMALL SCREEN
+// REDUCED THE WIDTH OF THE PHOTOS IN GALLERY SO THERE ARE SHOWING IN A COLUMN OF TWO
 @media (max-width: 528px) {
   .photos {
     a {
@@ -14,7 +15,9 @@
     height: 45vh;
   }
 }
+// ##########
 // TABLET
+// ##########
 @media (min-width: 768px) {
   body {
     background: linear-gradient(60deg, $blue-color 90%, $yellow-color);
@@ -233,9 +236,11 @@
     }
   }
 }
-
+// ###########
 // DESKTOP
+// ##########
 @media (min-width: 1024px) {
+  // Carousel slider
   .carousel-inner {
     min-height: 80vh;
     width: 100vw;
@@ -246,6 +251,7 @@
       object-position: top;
     }
   }
+
   .intro-slider {
     height: 50vh;
 
@@ -304,6 +310,11 @@
       grid-column: initial;
     }
   }
+  .main-footer {
+    h2 {
+      font-size: 4.5rem;
+    }
+  }
 }
 
 // BIGGER SCREEN
@@ -312,16 +323,17 @@
     max-width: 1800px;
   }
 
+  // GALLERY
   .gallery {
     .photos {
       max-width: 1600px;
       img {
-        width: 80%;
-        margin: 2rem;
+        width: 70%;
       }
     }
   }
 
+  // CARS
   .cars {
     .container {
       max-width: 1500px;
@@ -337,9 +349,16 @@
     }
   }
 
+  // INTRO PAGE
   .intro {
     p {
       max-width: 1200px;
+    }
+  }
+
+  .main-footer {
+    h2 {
+      font-size: 5rem;
     }
   }
 }
