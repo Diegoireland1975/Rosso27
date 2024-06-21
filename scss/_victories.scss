@@ -5,13 +5,15 @@
     margin: 0 auto;
     height: 45vh;
     object-fit: cover;
-    margin-top: -2rem;
+    margin-top: -3rem;
   }
 
-  p {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: left;
+  .victories-text {
+    margin-bottom: 2rem;
+    p {
+      line-height: 1.8;
+      text-align: left;
+    }
   }
 
   .drop-cap::first-letter {

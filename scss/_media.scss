@@ -153,9 +153,10 @@
       object-position: center;
     }
     .victories-text {
-      max-width: 700px;
-      margin: 0 auto;
       margin-bottom: 3rem;
+      p {
+        line-height: 2;
+      }
 
       .drop-cap::first-letter {
         font-size: 3rem;
