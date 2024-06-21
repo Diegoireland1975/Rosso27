@@ -32,13 +32,15 @@
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  // MAIN HEADER
   .main-header {
     .flex {
       gap: 2rem;
     }
 
-    #logo {
-      width: 3.5rem;
+    .logo {
+      width: 2.8rem;
     }
 
     h3 {
@@ -49,7 +51,7 @@
     h1 {
       font-size: 3rem;
       span {
-        font-size: 5rem;
+        font-size: 4rem;
       }
 
       .italyflag1 {
