@@ -56,9 +56,9 @@
   width: 100%;
   z-index: 100;
 
-  &.show {
-    position: sticky;
-  }
+  // &.show {
+  //   position: sticky;
+  // }
 
   // Hamburger Menu
   #hamburger {
@@ -68,7 +68,7 @@
     cursor: pointer;
     position: fixed;
     top: 0;
-    right: -1rem;
+    right: 0;
     z-index: 1000;
 
     .bar {
@@ -77,7 +77,7 @@
       background-color: $yellow-color;
       display: block;
       border-radius: 5px;
-      transition: 0.2s ease;
+      transition: 0.25s ease-in-out;
     }
 
     #bar1 {
@@ -86,22 +86,25 @@
     #bar3 {
       transform: translateY(5px);
     }
+
+    &.show {
+      #bar1 {
+        transform: rotateZ(-45deg);
+        background-color: $white-color;
+      }
+
+      #bar2 {
+        // background-color: $white-color;
+        display: none;
+      }
+
+      #bar3 {
+        transform: translateY(-4px) rotate(45deg);
+        background-color: $white-color;
+      }
+    }
   }
 
-  .show {
-    #bar1 {
-      transform: rotateZ(-45deg);
-      background-color: $white-color;
-    }
-
-    #bar2 {
-      background-color: $white-color;
-    }
-    #bar3 {
-      transform: translateY(4px) rotate(45deg);
-      background-color: $white-color;
-    }
-  }
   a {
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -128,9 +131,13 @@
     justify-content: space-between;
     align-items: flex-start;
     display: none;
+    // max-height: 0;
+    // overflow: hidden;
+    // transition: 0.25s ease-in-out;
 
     &.show {
       display: block;
+      // max-height: 100vh;
     }
   }
 }

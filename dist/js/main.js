@@ -74,6 +74,7 @@ menu.addEventListener("click", () => {
   menu.classList.toggle("show");
   nav.classList.toggle("show");
 });
+
 // change header opacity on scroll
 const mainHeader = document.getElementById("main-header");
 
