@@ -12,7 +12,7 @@
   }
 
   .cars-content {
-    padding: 1rem 2rem;
+    padding: 0 0.5rem;
   }
   figure {
     padding: 2rem 0;
@@ -47,8 +47,8 @@
     }
 
     img {
-      width: 200px;
-      height: 150px;
+      width: 250px;
+      height: 200px;
       object-fit: cover;
       border: 0.3rem solid $white-color;
     }
