@@ -202,8 +202,8 @@
     .car {
       bottom: 1rem;
       max-width: 100vw;
-      max-height: 85vh;
-      object-position: center;
+      max-height: 90vh;
+      object-position: bottom;
     }
     .flex {
       align-items: center;
@@ -331,6 +331,9 @@
 
 // BIGGER SCREEN
 @media (min-width: 1540px) {
+  body {
+    background: linear-gradient(60deg, $blue-color 85%, $yellow-color);
+  }
   .container {
     max-width: 1800px;
   }
@@ -356,9 +359,6 @@
   .cars {
     .container {
       max-width: 1500px;
-    }
-    .car {
-      max-height: 70vh;
     }
 
     figure {
