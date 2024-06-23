@@ -135,7 +135,7 @@
   .bio {
     .flex {
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
     }
     .container {
       .img4 {
@@ -280,6 +280,8 @@
       }
     }
   }
+
+  // VICTORIES
   .victories {
     .victories-text {
       max-width: 900px;
@@ -314,6 +316,8 @@
       grid-column: initial;
     }
   }
+
+  // FOOTER
   .main-footer {
     h2 {
       font-size: 4.5rem;
@@ -331,6 +335,12 @@
     max-width: 1800px;
   }
 
+  // BIO
+  .bio {
+    img:not(.img3) {
+      max-width: 450px;
+    }
+  }
   // GALLERY
   .gallery {
     .photos {
