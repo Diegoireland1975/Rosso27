@@ -81,6 +81,8 @@ const mainHeader = document.getElementById("main-header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 150) {
     mainHeader.style.opacity = 0.96;
+    menu.classList.remove("show");
+    nav.classList.remove("show");
   } else {
     mainHeader.style.opacity = 1;
   }
