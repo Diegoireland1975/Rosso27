@@ -22,3 +22,6 @@ This webpage is responsive and was built based on a "mobile-first" approach.
 A mobile-first approach is a way to build an app or website by starting with mobile phones and then adding media queries for larger screens, such as tablets and desktops.
 Media queries allows you to add styles depending on the device type.
 The mobile-first approach is a personal choice for developers because some prefer to start with the desktop and then add media queries for smaller screens.
+
+MOBILE VIEW
+<img src="/dist/img/mobile.png" align="center" width="200">
