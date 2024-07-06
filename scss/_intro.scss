@@ -1,8 +1,8 @@
 .intro {
   background: url("../img/other-pic/f1-brazilian-gp-1984.jpg") no-repeat top
       center/cover,
-    lighten($blue-color, $amount: 20%);
-  background-blend-mode: overlay;
+    $blue-color;
+  background-blend-mode: multiply;
   min-height: 90vh;
   z-index: 1;
   background-attachment: fixed;

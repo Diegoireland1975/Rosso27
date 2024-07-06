@@ -114,7 +114,7 @@
   // Intro
 
   .intro {
-    background-color: lighten($blue-color, $amount: 15%);
+    // background-color: lighten($blue-color, $amount: 10%);
     .drop-cap::first-letter {
       font-size: 3rem;
     }
