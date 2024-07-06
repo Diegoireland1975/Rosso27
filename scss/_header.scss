@@ -116,6 +116,9 @@
     margin-bottom: 0.8rem;
     border-radius: 5px;
     transition: color, 0.3s ease-in-out;
+    &.active {
+      color: $yellow-color;
+    }
 
     &:hover {
       color: $yellow-color;
