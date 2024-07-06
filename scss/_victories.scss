@@ -65,8 +65,8 @@
 }
 .victories-container {
   background: url("../img/other-pic/collage.jpg") top center/contain;
-  background-color: lighten($blue-color, $amount: 15%);
-  background-blend-mode: overlay;
+  background-color: $blue-color;
+  background-blend-mode: multiply;
 
   a {
     transition: filter 0.4s ease;
