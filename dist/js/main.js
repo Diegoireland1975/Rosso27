@@ -67,11 +67,11 @@ function getCookie(name) {
 }
 
 // // Hamburger Menu
-const menu = document.getElementById("hamburger");
+const hamburgerMenu = document.getElementById("hamburger");
 const nav = document.querySelector(".nav-links");
 
-menu.addEventListener("click", () => {
-  menu.classList.toggle("show");
+hamburgerMenu.addEventListener("click", () => {
+  hamburgerMenu.classList.toggle("show");
   nav.classList.toggle("show");
 });
 
@@ -81,8 +81,6 @@ const mainHeader = document.getElementById("main-header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 150) {
     mainHeader.style.opacity = 0.96;
-    menu.classList.remove("show");
-    nav.classList.remove("show");
   } else {
     mainHeader.style.opacity = 1;
   }
