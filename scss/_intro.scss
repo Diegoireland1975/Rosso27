@@ -26,3 +26,23 @@
     margin-right: 0.15rem;
   }
 }
+
+// COPYRIGHT
+.copy {
+  p {
+    font-weight: 900;
+    &:last-child {
+      margin-top: 2rem;
+    }
+  }
+
+  a {
+    text-decoration: underline;
+    font-weight: 300;
+  }
+
+  ol {
+    list-style: square;
+    margin-bottom: 1rem;
+  }
+}
