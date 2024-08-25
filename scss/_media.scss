@@ -352,6 +352,12 @@
     }
   }
 
+  // COPYRIGHT
+  .copy {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
   // GALLERY
   .gallery {
     .photos {
@@ -375,10 +381,13 @@
       }
     }
   }
-
+  // FOOTER
   .main-footer {
     h2 {
       font-size: 5rem;
+    }
+    .enzo {
+      max-width: 1400px;
     }
   }
 }
