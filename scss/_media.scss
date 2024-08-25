@@ -343,6 +343,15 @@
       max-width: 450px;
     }
   }
+
+  // INTRO PAGE
+  .intro {
+    p,
+    .social {
+      max-width: 1200px;
+    }
+  }
+
   // GALLERY
   .gallery {
     .photos {
@@ -364,13 +373,6 @@
       p {
         max-width: 900px;
       }
-    }
-  }
-
-  // INTRO PAGE
-  .intro {
-    p {
-      max-width: 1200px;
     }
   }
 

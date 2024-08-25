@@ -27,6 +27,23 @@
   }
 }
 
+// SOCIAL LINKS
+.social {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-top: 1px dotted #fff;
+  border-bottom: 1px dotted #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 50px;
+    cursor: pointer;
+  }
+}
+
 // COPYRIGHT
 .copy {
   p {
