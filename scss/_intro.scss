@@ -48,8 +48,10 @@
 .copy {
   p {
     font-weight: 900;
+    margin-bottom: 0.5rem;
+
     &:last-child {
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
   }
 
@@ -61,5 +63,6 @@
   ol {
     list-style: square;
     margin-bottom: 1rem;
+    font-style: italic;
   }
 }
