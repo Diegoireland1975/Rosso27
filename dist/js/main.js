@@ -1,3 +1,14 @@
+// ###########################///////
+// UPDATE COPYRIGHT YEAR IN THE FOOTER
+// #############################///////
+
+// Get a reference to the HTML element
+const yearSpan = document.querySelector("#currentYear");
+// Create a new date object to get the current Year
+let currentYear = new Date().getFullYear();
+// Update the innertext with the current year
+yearSpan.innerText = currentYear;
+
 // SCROLL ANIMATION
 document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
