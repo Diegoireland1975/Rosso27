@@ -39,4 +39,16 @@
     font-weight: bold;
     margin-right: 0.15rem;
   }
+  .hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transition: all 1s ease;
+    transform: translateY(30%);
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
 }
