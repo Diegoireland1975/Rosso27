@@ -10,9 +10,20 @@
       border: 0.3rem solid $white-color;
     }
   }
-
+  // HEIGHT OF THE SLIDER
   .carousel-inner {
     height: 45vh;
+  }
+}
+
+// ADJUST THE WITH OF THE IMGS IN BOX-2 SECTION VICTORIES, TO AVOID IMAGES GOING ON THE SAME LINE
+@media (min-width: 568px) and (max-width: 767px) {
+  .victories-container {
+    .box2 {
+      img {
+        width: 330px;
+      }
+    }
   }
 }
 // ##########
@@ -358,6 +369,14 @@
     margin: 0 auto;
   }
 
+  // VICTORIES
+  .victories-container {
+    .box2 {
+      img {
+        width: 290px;
+      }
+    }
+  }
   // GALLERY
   .gallery {
     .photos {
