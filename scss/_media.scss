@@ -306,7 +306,9 @@
 
   .victories-container {
     align-items: flex-start;
-
+    iframe {
+      width: 310px;
+    }
     p {
       font-size: 1rem;
     }
@@ -324,6 +326,12 @@
       order: -2;
       flex: 2;
       grid-column: initial;
+
+      img {
+        object-position: top;
+        width: 310px;
+        background: red;
+      }
     }
   }
 
@@ -373,7 +381,7 @@
   .victories-container {
     .box2 {
       img {
-        width: 290px;
+        width: 320px;
       }
     }
   }
