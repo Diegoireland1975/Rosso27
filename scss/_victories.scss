@@ -100,9 +100,9 @@
   .box2,
   .box3 {
     img {
-      width: 240px;
+      width: 290px;
       object-fit: cover;
-      margin-top: 1rem;
+      margin: 1rem 0;
     }
   }
 
@@ -118,6 +118,7 @@
   iframe {
     margin: 1rem 0;
     justify-content: center;
+    display: block;
   }
 }
 
