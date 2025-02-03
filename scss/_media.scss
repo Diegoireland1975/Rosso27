@@ -148,10 +148,9 @@
       flex-direction: column;
     }
     .container {
-      .img4 {
+      .img2 {
         order: 2;
       }
-      .img7,
       .img8 {
         order: -1;
       }
@@ -370,6 +369,10 @@
   // BIO
   .bio {
     .container {
+      .img8 {
+        max-width: 350px;
+      }
+
       .text {
         p {
           max-width: 900px;
