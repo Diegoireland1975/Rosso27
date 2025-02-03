@@ -145,8 +145,7 @@
   // #############//
   .bio {
     .flex {
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
     }
     .container {
       .img4 {
@@ -284,6 +283,15 @@
     font-size: 2.5rem;
   }
 
+  // ###############//
+  // bio//
+  // #############//
+  .bio {
+    .flex {
+      flex-direction: row;
+    }
+  }
+
   // CARS
   .cars {
     figure {
@@ -360,8 +368,12 @@
 
   // BIO
   .bio {
-    img:not(.img3) {
-      max-width: 450px;
+    .container {
+      .text {
+        p {
+          max-width: 900px;
+        }
+      }
     }
   }
 
