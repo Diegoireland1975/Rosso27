@@ -69,7 +69,7 @@
   }
   .hidden {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(50%);
     transition: opacity, transform 1s ease;
   }
 
