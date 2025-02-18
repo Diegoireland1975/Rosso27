@@ -29,24 +29,36 @@
 
     .img-caption {
       position: relative;
-    }
+      overflow: hidden;
 
-    .img-caption span {
-      opacity: 0;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      font-size: 0.8rem;
-      // white-space: nowrap;
-      padding: 0.5rem;
-      background: rgba(7, 7, 7, 0.7);
-      transition: 0.25s ease-in-out;
-      text-transform: capitalize;
-    }
+      img {
+        transition: opacity, transform, 0.3s ease-in-out;
+        opacity: 1;
+      }
+      img:hover {
+        transform: scale(1.1);
+        opacity: 0.7;
+        transform-origin: 50px 50px;
+        cursor: pointer;
+      }
 
-    .img-caption:hover span {
-      opacity: 1;
+      span {
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 0.8rem;
+        // white-space: nowrap;
+        padding: 0.5rem;
+        background: rgba(7, 7, 7, 0.7);
+        transition: 0.25s ease-in-out;
+        text-transform: capitalize;
+      }
+
+      &:hover span {
+        opacity: 1;
+      }
     }
   }
   .drop-cap::first-letter {
@@ -57,14 +69,12 @@
   }
   .hidden {
     opacity: 0;
-    filter: blur(10px);
-    transition: all 1s ease;
-    transform: translateY(30%);
+    transform: translateY(100%);
+    transition: opacity, transform 1s ease;
   }
 
   .show {
     opacity: 1;
-    filter: blur(0);
     transform: translateY(0);
   }
 }
